@@ -1,0 +1,15 @@
+For task 3, we are due to implement feature engineering.
+It is one important step because in traditional match, model is limited and the major difference is the features. It means that the influence brought by changing the parameters is not comparable to that brought by features.
+Feature Engineering is to transfer the features in original data to features which can better represent potential problems, thus to improve the performance of model.
+It includes:
+1.Exception handling: (1) delete abnormal values through box plot or 3-Sigma (2)BOX-COX transfer(deal with skewed distribution (3)Truncated long tail
+2.Feature Standardization/Normalization: （1)Standardization (2)Normilization (3) for power law distribution: \log[\frac{1+x}{1 + median}]
+3.Hive bucket: (1) same frequency Hive (2)same distance Hive (3)Best-KS Hive (4)KaFang Hive
+4.Missing Data: (1) Ignore (2)delete (3)insert values (4)Bining
+5.Feature structure
+6.Feature selecting: (1)filter (2)wrapper (3)embedding
+7.Dimensionality reduction: (1)PCA/LDA/ICA (2)select the features the model need
+
+Details(updated later):
+1.APIs called in the implementation
+2.mathematical principle behind feature engineering
