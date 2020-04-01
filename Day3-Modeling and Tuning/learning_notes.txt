@@ -1,0 +1,38 @@
+For task 4, we are about to learn how to build basic machine learning model and tune parameters
+The mentor share many useful materials for us to take reference.
+Below are the basic description of the materials and links to them:
+
+Linear Regression Model: https://zhuanlan.zhihu.com/p/49480391
+Decision Tress Model: https://zhuanlan.zhihu.com/p/65304798
+GBDT Model: https://zhuanlan.zhihu.com/p/45145899
+XGBoost Model: https://zhuanlan.zhihu.com/p/86816771
+LightGBM Model: https://zhuanlan.zhihu.com/p/89360721
+
+Some useful books:
+The Data Science Handbook: Advice and Insights from 25 Amazing Data Scientists
+Machine learning, Zhihua Zhou
+Statistical learning methods Hang Li
+
+Tuning Algorithm:
+Greedy: https://www.jianshu.com/p/ab89df9759c8
+Grid Search: https://blog.csdn.net/weixin_43172660/article/details/83032029
+Bayes Optimization: https://blog.csdn.net/linxid/article/details/81189154
+
+overfitting:  https://www.zhihu.com/question/32246256/answer/55320482
+the complexity and generalization of the model: 
+http://yangyingming.com/article/434/http://yangyingming.com/article/434/
+regularization: https://blog.csdn.net/jinping_shi/article/details/52433975
+
+First, we need to load data. During this process, we are able to reduce the memory use
+through change the type of the given data.
+
+Then our mentor showed us how to build the basic linear regression model. Our mentor pointed out
+that it doesn't satisfy the assumption of regression analysis
+Link to the resource(Chinese): https://blog.csdn.net/Noob_daniel/article/details/76087829
+Link to the resource(English): https://www.analyticsvidhya.com/blog/2016/07/deeper-regression-analysis-assumptions-plots-solutions/
+we should do one modification to the price column
+Our mentor did 5-fold crossValidation to simulate the real case in our life
+
+Afterwards, our mentor guided us to build more models and compare each of them through data visualization.
+
+Finally, it is to tune parameters. Our mentor introduced three methods and the links to the three methods has been shared above
