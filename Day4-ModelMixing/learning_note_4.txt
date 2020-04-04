@@ -1,0 +1,33 @@
+For task 5, we are going to mix different models together ,which is the last but important step of the match.
+
+In general, stacking & blending contains three main types:
+
+1.simple weighted fusion:
+  (1) Regression: Arithmetic mean, Geometric mean
+  (2) Classification: Voting
+  (3) Comprehensive: Rank averaging, log fusion
+
+2.stacking/blending
+  build one multiply layer model and predict based on former prediction result
+
+3.boosting/bagging
+  improve the accuracy based on multiple trees
+
+To improve the robust of the model:
+1.fusion over result aspect:
+This is the most common fusion method, and there are many feasible fusion methods, 
+such as weighted fusion according to the score of the results, Log and Exp processing, etc. 
+When doing result fusion, there is a very important condition that the scores of model results should be relatively similar, 
+and then the differences of results should be relatively large. Such result fusion often has better effect improvement.
+
+2.fusion over feature aspect:
+In fact, this level does not feel like fusion, but rather segmentation. Most of the time, 
+if we use the same model for training, we can segment the features into different models, 
+and then carry out model or result fusion later, which can sometimes produce better results.
+
+3.fusion over model aspect:
+Fusion at the model level may involve stacking and design of models, 
+such as adding Staking layer and taking the results of some models as feature inputs. 
+These require more experiments and thinking. 
+Fusion at the model level is best based on certain differences between different model types, 
+and the benefits of using different parameters of the same model are generally relatively small.
